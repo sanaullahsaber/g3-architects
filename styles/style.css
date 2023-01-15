@@ -143,6 +143,7 @@ nav li {
 }
 .skill-title {
   border-left: 5px solid #ff900e;
+  padding-left: 21px;
   margin-bottom: 24px;
 }
 .skill-description {
