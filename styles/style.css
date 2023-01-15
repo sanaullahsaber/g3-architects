@@ -5,7 +5,8 @@
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
-
+body {
+}
 /*----------------------- 
     G3 Architects 
 -------------------------*/
@@ -16,7 +17,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 230px;
+  padding: 50px 230px;
 }
 .nav-title {
   font-weight: 700;
@@ -132,14 +133,16 @@ nav li {
 ---------------------------------*/
 .love-enjoy {
   margin-top: 130px;
+  margin-bottom: 130px;
 }
 .skills-container {
   display: flex;
   justify-content: center;
-  gap: 54px;
+  gap: 146px;
   margin: 0 240px;
 }
 .skill-title {
+  border-left: 5px solid #ff900e;
   margin-bottom: 24px;
 }
 .skill-description {
@@ -180,7 +183,10 @@ nav li {
   height: 200px;
   background: #ff900e;
   border-radius: 8px;
-
+  border: 0;
+  position: relative;
+  right: 95px;
+  bottom: 115px;
   font-weight: 700;
   font-size: 65px;
   text-align: center;
@@ -192,4 +198,117 @@ nav li {
   font-size: 25px;
   text-align: center;
   color: #ffffff;
+}
+
+/*------------------------------- 
+                Some section
+---------------------------------*/
+.some-section {
+  margin-bottom: 100px;
+}
+.some-container {
+  margin: 0 240px;
+}
+
+.some-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.some-description {
+  width: 542px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+/*------------------------------- 
+                facts section
+---------------------------------*/
+.facts-section {
+  margin-bottom: 180px;
+}
+.facts-flex {
+  display: flex;
+  gap: 124px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 290px;
+}
+.some {
+  width: 241.83px;
+
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 10px;
+}
+.clients-icon {
+  margin: 0 98px;
+}
+.clients-title {
+  text-align: center;
+}
+.clients-desription {
+  text-align: center;
+}
+/*------------------------------- 
+                Our Sponspors
+---------------------------------*/
+.sponspors-title {
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  color: #131313;
+}
+.sponspors-description {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #727272;
+  margin-bottom: 100px;
+}
+.players {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 290px;
+  margin-bottom: 100px;
+}
+.player img {
+  height: 300px;
+  width: 300px;
+}
+
+.company {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 290px;
+}
+.company-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.company a {
+  text-decoration: none;
+}
+
+/*------------------------------- 
+                footer
+---------------------------------*/
+footer {
+  margin: 130px 240px 216px 240px;
+}
+.footer-section {
+  border: 1px solid #ffffff;
+  width: 1440px;
+  height: 100px;
+  background: #fff4e7;
+  border-radius: 8px;
+}
+.footer-title {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #424242;
+  padding: 39px 410px;
 }
