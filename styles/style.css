@@ -237,9 +237,11 @@ nav li {
   align-items: center;
   margin: 0 290px;
 }
+.some:hover{
+  transform: rotate(30deg);
+}
 .some {
   width: 241.83px;
-
   border: 1px solid #ff900e;
   border-radius: 8px;
   padding: 10px;
